@@ -4,7 +4,7 @@ provider:
   name: aws
   runtime: nodejs22.x
   httpApi:
-    payload: '2.0'
+    payload: "2.0"
 
 functions:
   requestHandler:
@@ -15,8 +15,8 @@ functions:
       - httpApi:
           method: any
           path: /{proxy+}
-    environment:
-      #DATABASE: ''
-      #USERNAME: ''
-      #PASSWORD: Don't set this if you'll be commiting the file, instead use the AWS console or another method like Parameter Store
-      #HOST: ''
+    # environment:
+    #DATABASE: ''
+    #USERNAME: ''
+    #PASSWORD: Don't set this if you'll be commiting the file, instead use the AWS console or another method like Parameter Store
+    #HOST: ''
