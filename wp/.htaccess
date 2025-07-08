@@ -10,7 +10,7 @@ RewriteBase /wp/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /wordpress/index.php [L]
+RewriteRule . /wp/index.php [L]
 php_value upload_max_filesize 64M
 php_value max_execution_time 300
 </IfModule>
