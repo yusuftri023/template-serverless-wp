@@ -14,5 +14,6 @@ RewriteRule . /wp/index.php [L]
 php_value upload_max_filesize 64M
 php_value max_execution_time 300
 </IfModule>
-
+php_value upload_max_filesize 64M
+php_value max_execution_time 300
 # END WordPress
